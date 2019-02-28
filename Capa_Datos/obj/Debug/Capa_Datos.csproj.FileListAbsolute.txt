@@ -1,0 +1,13 @@
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Datos\obj\Debug\Capa_Datos.csprojResolveAssemblyReference.cache
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Datos\bin\Debug\Capa_Datos.dll.config
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Datos\bin\Debug\MySql.Data.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Datos\bin\Debug\MySql.Data.xml
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\Capa_Datos\bin\Debug\Capa_Datos.dll.config
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\Capa_Datos\obj\Debug\Capa_Datos.pdb

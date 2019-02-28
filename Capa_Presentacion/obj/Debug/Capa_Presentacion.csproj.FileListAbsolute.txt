@@ -1,0 +1,9 @@
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Presentacion\bin\Debug\Capa_Presentacion.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Presentacion\bin\Debug\Capa_Presentacion.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Presentacion\bin\Debug\Capa_Negocio.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Presentacion\bin\Debug\Capa_Negocio.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Presentacion\obj\Debug\Capa_Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Presentacion\obj\Debug\Capa_Presentacion.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Presentacion\obj\Debug\Capa_Presentacion.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Presentacion\bin\Debug\Capa_Datos.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\Capa_Presentacion\bin\Debug\Capa_Datos.pdb

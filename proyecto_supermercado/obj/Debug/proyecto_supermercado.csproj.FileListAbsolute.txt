@@ -1,0 +1,80 @@
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\bin\Debug\proyecto_supermercado.exe.config
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\bin\Debug\proyecto_supermercado.exe
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\bin\Debug\proyecto_supermercado.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.csprojResolveAssemblyReference.cache
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Form1.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Properties.Resources.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.csproj.GenerateResource.Cache
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.exe
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Supermercado.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Ventas.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Productos.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Consultar.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Proveedores.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Facturas.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Empleadoscs.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Presentacion.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Presentacion.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Categoria.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Negocio.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Datos.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Negocio.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Datos.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.presentacion.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.vista.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\bin\Debug\proyecto_supermercado.exe.config
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.exe
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\bin\Debug\proyecto_supermercado.exe
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\bin\Debug\proyecto_supermercado.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Datos.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Negocio.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Presentacion.dll
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Datos.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Negocio.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\bin\Debug\Capa_Presentacion.pdb
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.csprojResolveAssemblyReference.cache
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Categoria.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Consultar.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Empleadoscs.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Facturas.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Form1.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Inventario.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.presentacion.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Productos.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Properties.Resources.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Proveedores.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Supermercado.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Ventas.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.vista.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\borrador\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.csproj.GenerateResource.Cache
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Clientes.resources
+C:\Users\clockwork\Dropbox\c#\entrenamiento\proyecto_supermercado\proyecto_supermercado\obj\Debug\proyecto_supermercado.Articulos.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\bin\Debug\proyecto_supermercado.exe.config
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\bin\Debug\proyecto_supermercado.exe
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\bin\Debug\proyecto_supermercado.pdb
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\bin\Debug\Capa_Datos.dll
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\bin\Debug\Capa_Negocio.dll
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\bin\Debug\Capa_Presentacion.dll
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\bin\Debug\Capa_Datos.pdb
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\bin\Debug\Capa_Negocio.pdb
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\bin\Debug\Capa_Presentacion.pdb
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.csprojResolveAssemblyReference.cache
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Articulos.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Categoria.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Clientes.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Consultar.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Empleadoscs.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Facturas.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Form1.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.presentacion.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Productos.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Properties.Resources.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Proveedores.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Supermercado.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.Ventas.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.vista.resources
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.csproj.GenerateResource.Cache
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.exe
+C:\Users\cesarin\Documents\Visual Studio 2015\Projects\prueba12\proyecto_supermercado\obj\Debug\proyecto_supermercado.pdb
