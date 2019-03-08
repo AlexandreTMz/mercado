@@ -20,12 +20,5 @@ namespace Capa_Datos
             }
             return cnxion;
         }
-
-        static void Main(string[] args)
-        {
-            // Display the number of command line arguments:
-            Conexion a = new Conexion();
-            Console.WriteLine("Cos" + Conexion.conexion());
-        }
-    }
+     }
 }

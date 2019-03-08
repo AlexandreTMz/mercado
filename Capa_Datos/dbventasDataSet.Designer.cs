@@ -6684,8 +6684,8 @@ SELECT idarticulo, codigo, nombre, descripcion, imagen, idcategoria, idpresentac
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[categoria] ([nombre], [descripcion]) VALUES (@nombre, @descrip" +
-                "cion);\nSELECT idcategoria, nombre, descripcion FROM categoria WHERE (idcategoria" +
-                " = SCOPE_IDENTITY())";
+                "cion);\r\nSELECT idcategoria, nombre, descripcion FROM categoria WHERE (idcategori" +
+                "a = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@nombre", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "nombre", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@descripcion", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "descripcion", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -8817,8 +8817,8 @@ SELECT idingreso, idtrabajador, idproveedor, fecha, tipo_comprobante, serie, cor
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[presentacion] ([nombre], [descripcion]) VALUES (@nombre, @desc" +
-                "ripcion);\nSELECT idpresentacion, nombre, descripcion FROM presentacion WHERE (id" +
-                "presentacion = SCOPE_IDENTITY())";
+                "ripcion);\r\nSELECT idpresentacion, nombre, descripcion FROM presentacion WHERE (i" +
+                "dpresentacion = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@nombre", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "nombre", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@descripcion", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "descripcion", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using Capa_Datos;
+using System.Windows.Forms;
 
 namespace Capa_Negocio
 {
@@ -15,31 +16,37 @@ namespace Capa_Negocio
 
         public void ingresar(int pidtrabajador, int pidproveedor, DateTime pfecha, string ptipo_comprobante, string pserie, string pcorrelativo, decimal pigv, string pestado, DataTable pdetalles)
         {
-            DIngreso ap = new DIngreso();   
-            ap.idtrabajador = pidtrabajador;
-            ap.idproveedor = pidproveedor;
-            ap.fecha = pfecha;
-            ap.tipo_comprobante = ptipo_comprobante;
-            ap.serie = pserie;
-            ap.correlativo = pcorrelativo;
-            ap.igv = pigv;
-            ap.estado = pestado;
-            List<DDetalle_ingreso> detalles = new List<DDetalle_ingreso>();
-           
-            foreach (DataRow row in dtdetalles.Rows)
+          
+                DIngreso ap = new DIngreso();
+                ap.idtrabajador = pidtrabajador;
+                ap.idproveedor = pidproveedor;
+                ap.fecha = pfecha;
+                ap.tipo_comprobante = ptipo_comprobante;
+                ap.serie = pserie;
+                ap.correlativo = pcorrelativo;
+                ap.igv = pigv;
+                ap.estado = pestado;
+                List<DDetalle_ingreso> detalles = new List<DDetalle_ingreso>();
+
+            if (detalles.Count>0)
             {
-                DDetalle_ingreso detalle = new DDetalle_ingreso();
-                detalle.idarticulo = Convert.ToInt32(row["idarticulo"].ToString());
-                detalle.precio_compra = Convert.ToDecimal(row["precio_compra"].ToString());
-                detalle.precio_venta = Convert.ToDecimal(row["precio_venta"].ToString());
-                detalle.stock_inicial = Convert.ToInt32(row["stock_inicial"].ToString());
-                detalle.stock_actual = Convert.ToInt32(row["stock_inicial"].ToString());
-                detalle.fecha_produccion = Convert.ToDateTime(row["fecha_produccion"].ToString());
-                detalle.fecha_vencimiento = Convert.ToDateTime(row["fecha_vencimiento"].ToString());
-                detalles.Add(detalle);
-                
+                foreach (DataRow row in dtdetalles.Rows)
+                {
+                    DDetalle_ingreso detalle = new DDetalle_ingreso();
+                    detalle.idarticulo = Convert.ToInt32(row["idarticulo"].ToString());
+                    detalle.precio_compra = Convert.ToDecimal(row["precio_compra"].ToString());
+                    detalle.precio_venta = Convert.ToDecimal(row["precio_venta"].ToString());
+                    detalle.stock_inicial = Convert.ToInt32(row["stock_inicial"].ToString());
+                    detalle.stock_actual = Convert.ToInt32(row["stock_inicial"].ToString());
+                    detalle.fecha_produccion = Convert.ToDateTime(row["fecha_produccion"].ToString());
+                    detalle.fecha_vencimiento = Convert.ToDateTime(row["fecha_vencimiento"].ToString());
+                    detalles.Add(detalle);
+
+                }
             }
-            ap.insertar(detalles);
+                ap.insertar(detalles);
+
+            
         }
 
         public static string anular(int idingreso)

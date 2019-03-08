@@ -14,11 +14,13 @@ namespace proyecto_supermercado
 {
     public partial class Articulos : Form
     {
-        Consultar objConsultar = null;
-        public Articulos(Consultar consultar)
+
+        public string Par1 { get; set; }
+        public string Par2 { get; set; }
+
+        public Articulos()
         {
             InitializeComponent();
-            objConsultar = consultar;
         }
 
         private void ocultar_columnas()
@@ -57,17 +59,12 @@ namespace proyecto_supermercado
 
         private void DgvListado_DoubleClick(object sender, EventArgs e)
         {
-            //Consultar form = new Consultar();
-            //string par1, par2;
-            //par1 = Convert.ToString(this.DgvListado.CurrentRow.Cells["idarticulo"].Value);
-            //par2 = Convert.ToString(this.DgvListado.CurrentRow.Cells["nombre"].Value);
-            //form.setArticulo(par1, par2);
-            //objConsultar.TxtArticulo.Text = valor1;
-            //objConsultar.TxtIdarticulo.Text = valor2;
-            //this.Hide();
-            objConsultar.TxtIdarticulo.Text = Convert.ToString(this.DgvListado.CurrentRow.Cells["idarticulo"].Value);
-            objConsultar.TxtArticulo.Text = Convert.ToString(this.DgvListado.CurrentRow.Cells["nombre"].Value);
-            this.Hide();
+           
+            Par1 = Convert.ToString(this.DgvListado.CurrentRow.Cells["idarticulo"].Value);
+            Par2 = Convert.ToString(this.DgvListado.CurrentRow.Cells["nombre"].Value);
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+            
         }
 
        

@@ -13,14 +13,16 @@ namespace proyecto_supermercado
 {
     public partial class Supermercado : Form
     {
-        public string idtrabajador = "";
+        public string idtrabajador;
         public string apellidos = "";
         public string nombre = "";
         public string acceso = "";
 
-        public Supermercado()
+        public Supermercado(string pidtrabajador)
         {
             InitializeComponent();
+            this.idtrabajador = pidtrabajador;
+            MessageBox.Show("ID SP: "+idtrabajador);
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -87,9 +89,8 @@ namespace proyecto_supermercado
 
         private void BtnConsultar_Click(object sender, EventArgs e)
         {
-            AbrirFormPanel(new Consultar());
-            Consultar form = Consultar.getinstancia();
-            form.idtrabajador = Convert.ToInt32(this.idtrabajador);
+            AbrirFormPanel(new Consultar(idtrabajador));
+            Consultar form = new Consultar(idtrabajador);            
         }
 
         private void BtnProveedores_Click(object sender, EventArgs e)

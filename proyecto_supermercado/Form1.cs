@@ -86,8 +86,9 @@ namespace proyecto_supermercado
             }
             else
             {
-                Supermercado open = new Supermercado();
+                Supermercado open = new Supermercado(datos.Rows[0][0].ToString());
                 open.idtrabajador = datos.Rows[0][0].ToString();
+                MessageBox.Show("ID L: "+open.idtrabajador);
                 open.nombre = datos.Rows[0][1].ToString();
                 open.apellidos = datos.Rows[0][2].ToString();
                 open.acceso = datos.Rows[0][3].ToString();

@@ -14,39 +14,29 @@ namespace proyecto_supermercado
 {
     public partial class Consultar : Form
     {
-        public int idtrabajador;
-        private static Consultar instancia;
+        public int idtrabajador;       
         private DataTable DTDetalle;
         private decimal totalpagado;
-        private Articulos objArticulos;
+         
 
-        public static Consultar getinstancia()
-        {
-            if (instancia == null)
-            {
-                instancia = new Consultar();
-            }
-
-            return instancia;
-        }
-
-       
-
-        public Consultar()
+        public Consultar(string pidtrabajador)
         {
             InitializeComponent();
+            this.idtrabajador = Convert.ToInt32(pidtrabajador);
             this.TxtIdarticulo.Visible = false;
             this.TxtArticulo.ReadOnly = true;
-            this.llenar_combobox();           
-          }
+            this.llenar_combobox();
+                    
+        }
 
         private void Consultar_Load(object sender, EventArgs e)
         {
             this.Top = 0;
             this.Left = 0;
             this.mostrar();
-            this.Crear_Tabla();                    
+            this.Crear_Tabla();
             
+
         }
 
         private void BtnCerrar_Click(object sender, EventArgs e)
@@ -56,13 +46,25 @@ namespace proyecto_supermercado
 
         private void Consultar_FormClosing(object sender, FormClosingEventArgs e)
         {
-            instancia = null;
+           
         }
 
         private void BtnBuscarArticulo_Click(object sender, EventArgs e)
         {
-            Articulos open = new Articulos(this);
-            open.ShowDialog();
+            Articulos open = new Articulos();
+
+            DialogResult id1 = open.ShowDialog();
+
+            if (id1 == DialogResult.OK)
+            {
+                string id = open.Par1.ToString();
+                string nombre = open.Par2.ToString();
+                TxtIdarticulo.Text = id;
+                TxtArticulo.Text = nombre;
+                
+            }
+
+           
         }
 
         private void ocultarcolumnas()
@@ -144,6 +146,7 @@ namespace proyecto_supermercado
             this.DTDetalle.Columns.Add("stock_inicial", System.Type.GetType("System.Decimal"));
             this.DTDetalle.Columns.Add("fecha_produccion", System.Type.GetType("System.DateTime"));
             this.DTDetalle.Columns.Add("fecha_vencimiento", System.Type.GetType("System.DateTime"));
+            this.DTDetalle.Columns.Add("subtotal", System.Type.GetType("System.Decimal"));
 
             this.DgvListadoDetalle.DataSource = this.DTDetalle;
 
@@ -170,9 +173,18 @@ namespace proyecto_supermercado
         }
 
         private void BtnGuardar_Click(object sender, EventArgs e)
-        {
+        { 
+
             Ningreso ap = new Ningreso();
-            ap.ingresar(idtrabajador, Convert.ToInt32(CmbProveedor.SelectedValue), DateTimeFechaIngreso.Value, CmbComprobante.Text, TxtSerie.Text,TxtCorrelativo.Text, Convert.ToDecimal(TxtIgv.Text), "EMITIDO",DTDetalle);
+            MessageBox.Show("ID: "+ idtrabajador);
+            MessageBox.Show("ID: " + Convert.ToInt32(CmbProveedor.SelectedValue));
+            MessageBox.Show("ID: " + DateTimeFechaIngreso.Value);
+            MessageBox.Show("ID: " + CmbComprobante.Text);
+            MessageBox.Show("ID: " + TxtSerie.Text);
+            MessageBox.Show("ID: " + TxtCorrelativo.Text);
+            MessageBox.Show("ID: " + Convert.ToDecimal(TxtIgv.Text));
+            MessageBox.Show("ID: " + DTDetalle);
+            ap.ingresar(idtrabajador, Convert.ToInt32(CmbProveedor.SelectedValue), DateTimeFechaIngreso.Value, CmbComprobante.Text, TxtSerie.Text,TxtCorrelativo.Text,Convert.ToDecimal(TxtIgv.Text), "EMITIDO",DTDetalle);
         }
 
         private void BtAgregar_Click(object sender, EventArgs e)
@@ -192,16 +204,26 @@ namespace proyecto_supermercado
                 totalpagado = totalpagado + subtotal;
                 this.lblTotalPagar.Text = totalpagado.ToString("#0.00#");
 
-                DataRow row = this.DTDetalle.NewRow();
-                row["idarticulo"] = Convert.ToInt32(this.TxtIdarticulo.Text);
-                row["articulo"] = this.TxtArticulo.Text;
-                row["precio_compra"] = Convert.ToDecimal(TxtPrecioCompra.Text);
-                row["precio_venta"] = Convert.ToDecimal(txtPrecioventa.Text);
-                row["stock_inicial"] = Convert.ToInt32(TxtStock.Text);
-                row["fecha_produccion"] = DateTimefecha_prod.Value;
-                row["fecha_vencimiento"] = DateTime_vencimiento.Value;
-                row["subtotal"] = subtotal;
-                this.DTDetalle.Rows.Add(row);
+                try
+                {
+                    DataRow row = this.DTDetalle.NewRow();
+                    row["idarticulo"] = Convert.ToInt32(this.TxtIdarticulo.Text);
+                    row["articulo"] = this.TxtArticulo.Text;
+                    row["precio_compra"] = Convert.ToDecimal(TxtPrecioCompra.Text);
+                    row["precio_venta"] = Convert.ToDecimal(txtPrecioventa.Text);
+                    row["stock_inicial"] = Convert.ToInt32(TxtStock.Text);
+                    row["fecha_produccion"] = DateTimefecha_prod.Value;
+                    row["fecha_vencimiento"] = DateTime_vencimiento.Value;
+                    row["subtotal"] = subtotal;
+                    this.DTDetalle.Rows.Add(row);
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+                }
+
+                
 
             }
                  
@@ -227,7 +249,6 @@ namespace proyecto_supermercado
 
         private void DgvListado_DoubleClick(object sender, EventArgs e)
         {
-          
             this.TxtIdingreso.Text = DgvListado.CurrentRow.Cells["idingreso"].Value.ToString();
             this.CmbProveedor.SelectedValue = DgvListado.CurrentRow.Cells["proveedor"].Value;
             this.DateTimeFechaIngreso.Value = Convert.ToDateTime(DgvListado.CurrentRow.Cells["fecha"].Value);
